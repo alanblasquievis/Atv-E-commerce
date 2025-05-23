@@ -1,0 +1,46 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  color: #333;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Título */
+h1 {
+  font-size: 2.5rem;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+/* Botão */
+#btn-add {
+  background-color: #0d6efd;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#btn-add:hover {
+  background-color: #084298;
+  transform: scale(1.05);
+}
+
+/* Mensagem */
+#mensagem {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: green;
+}
